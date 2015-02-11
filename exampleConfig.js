@@ -81,6 +81,7 @@ Optional Variables:
     count:            send the count metric [default: true]
     count_pct:        send the count_pct (e.g. count_90) metric [default: true]
     count_ps:         send the count_ps metric [default: true]
+    histogram:        send the histogram metric [default: true]
     lower:            send the lower metric [default: true]
     lower_pct:        send the lower_pct (e.g. lower_90) metric [default: true]
     mean:             send the mean metric [default: true]
