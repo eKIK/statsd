@@ -77,6 +77,23 @@ Optional Variables:
                       This is particularly useful for sending per host stats by
                       settings this value to: require('os').hostname().split('.')[0]
 
+  metrics:
+    count:            send the count metric [default: true]
+    count_pct:        send the count_pct (e.g. count_90) metric [default: true]
+    count_ps:         send the count_ps metric [default: true]
+    lower:            send the lower metric [default: true]
+    lower_pct:        send the lower_pct (e.g. lower_90) metric [default: true]
+    mean:             send the mean metric [default: true]
+    mean_pct:         send the mean_pct (e.g. mean_90) metric [default: true]
+    median:           send the median metric [default: true]
+    std:              send the std metric [default: true]
+    sum:              send the sum metric [default: true]
+    sum_squares:      send the sum_squares metric [default: true]
+    sum_squares_pct:  send the sum_squares_pct (e.g. sum_squares_90) metric [default: true]
+    sum_pct:          send the sum_pct (e.g. sum_90) metric [default: true]
+    upper:            send the upper metric [default: true]
+    upper_pct:        send the upper_pct (e.g. upper_90) metric [default: true]
+
   repeater:         an array of hashes of the for host: and port:
                     that details other statsd servers to which the received
                     packets should be "repeated" (duplicated to).
